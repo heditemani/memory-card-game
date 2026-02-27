@@ -1,10 +1,29 @@
 import { GameHeader } from "./components/GameHeader"
 
+const cardValues = [
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+]
+
 function App() {
 
   return (
   <div className="app">
-    <GameHeader />  
+    <GameHeader score = {2} moves = {5} />  
   </div>
 )}
 
